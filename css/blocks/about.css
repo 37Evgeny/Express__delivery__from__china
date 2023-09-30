@@ -1,0 +1,87 @@
+.about {
+    padding: 90px 0px 100px 0px;
+    background: #282A2D;
+}
+
+.about__h2 {
+    color: var(--white, #F6F6F6);
+    font-family: Exo 2;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 64.8px */
+}
+
+.about__services {
+    display: flex;
+    padding: 40px 0px 0px 0px;
+}
+
+.services__about {
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+min-width: 275px;
+}
+
+.services__num {
+    color: var(--gold, #C8A35F);
+font-family: Exo 2;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%; /* 60px */
+}
+
+.services__text {
+    color: var(--white, #F6F6F6);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 23.4px */
+}
+
+.company__about{
+    width: 490px;
+    padding-left: 37px;
+}
+
+.img__company {
+    width: 490px;
+height: 207px;
+border-radius: 5px;
+}
+
+.company__text {
+    margin-top: 30px;
+    color: var(--txt, #AEB5BF);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 23.4px */
+}
+
+.team__about {
+    padding-left: 30px;
+    width: 386px;
+ 
+}
+
+.team__img {
+    width: 386px;
+height: 207px;
+border-radius: 5px;
+}
+.team__text {
+    padding-top: 30px;
+    color: var(--txt, #AEB5BF);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 23.4px */
+}
