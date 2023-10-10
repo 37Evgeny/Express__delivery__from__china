@@ -1,4 +1,4 @@
-.header{
+.header {
     position: absolute;
     z-index: 50;
     background: rgba(19, 19, 19, 0.39);
@@ -7,7 +7,8 @@
     left: 0;
     top: 0;
 }
-.header__container{
+
+.header__container {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -39,50 +40,60 @@
     text-transform: uppercase;
 }
 
-.header__right{
+.header__right {
     display: flex;
     align-items: center;
 }
 
-.right__contact{
+.right__contact {
     display: flex;
     flex-direction: column;
     align-items: start;
     padding-right: 30px;
 }
-.right__btn__call{
+
+.right__btn__call {
     padding-right: 43px;
 }
-.tel{
+
+.tel {
     color: var(--white, #F6F6F6);
-font-family: Roboto;
-font-size: 29px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 37.7px */
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 37.7px */
 }
 
-.mail{
+.mail {
     color: var(--white, #F6F6F6);
-text-align: center;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
-.btn__call{
+.btn__call {
+    color: var(--white, #F6F6F6);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: transparent;
     display: inline-flex;
-padding: 24px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 11px;
-border: 2px solid var(--gold, #C8A35F);
+    padding: 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 11px;
+    border: 2px solid var(--gold, #C8A35F);
 }
 
-.img__burger{
+.img__burger {
     width: 74px;
-height: 28px;
-flex-shrink: 0;
+    height: 28px;
 }

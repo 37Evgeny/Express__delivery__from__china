@@ -1,0 +1,66 @@
+.are__working__container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url(../../img/big__block/are__working/bg.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.are__working__title {
+    margin-top: 100px;
+    color: var(--white, #F6F6F6);
+    font-family: Exo 2;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 64.8px */
+}
+
+.are__working__text {
+    margin-top: 12px;
+    width: 705px;
+    color: var(--txt, #AEB5BF);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.are__working__cards {
+    margin-top: 478px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.are__working__card {
+    display: flex;
+    width: 282px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.are__working__card__title {
+    align-self: stretch;
+    width: 258px;
+    color: var(--gold, #C8A35F);
+    font-family: Exo 2;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 36px */
+}
+
+.are__working__card__text {
+    width: 258px;
+    align-self: stretch;
+    color: var(--white, #F6F6F6);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 23.4px */
+}
