@@ -9,11 +9,15 @@
     top: 0;
 }
 
+.header__cnt__mobile {
+    display: none;
+}
+
 .header__container {
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 133px;
+    min-height: 133px;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
@@ -100,7 +104,7 @@
 }
 
 @media (max-width: 820px) {
-    
+
     .header__container {
         justify-content: space-around;
     }
@@ -108,5 +112,98 @@
     .right__contact {
         display: none;
     }
+
+}
+
+@media(max-width:400px) {
+
+    .header__left {
+        display: none;
+    }
+
+    .header__right{
+         display: none;
+    }
+
+    .header__cnt__mobile {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        min-height: 133px;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .header__cnt__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__cnt__mobile__top {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__cnt__mobile__botton {
+        margin-top: 16px;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right__btn__call {
+        padding: 0px;
+    }
+
+     .left__name {
+        color: var(--gold, #C8A35F);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .left__logo {
+        color: var(--white, #F6F6F6);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .btn__call {
+        display: flex;
+        max-width: 164px;
+        max-height: 53px;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        color: var(--white, #F6F6F6);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        order: 1;
+    }
+
+    .img__burger {
+        max-width: 50px;
+        max-height: 19px;
+    }
+
 
 }
