@@ -1,19 +1,25 @@
-/* Карта */
+/* 
 
 .map {
-    /* width: 1914px;
-    height: 593px; */
+    display: flex;
+    flex-wrap: wrap;
     background: #282A2D;
     position: relative;
+}
+
+.map__container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .map__map {
     position: relative;
     margin-top: 100px;
-    height: 593px;
+    min-height: 593px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .map__china__img {
@@ -172,7 +178,7 @@
 }
 
 .map__num__step3 {
-   
+
     position: absolute;
     color: var(--white, #F6F6F6);
     font-family: Exo 2;
@@ -203,7 +209,7 @@
     top: 20px;
 }
 
-.map__num__step__4__cnt{
+.map__num__step__4__cnt {
     position: absolute;
     display: flex;
     justify-content: start;
@@ -252,7 +258,6 @@
 
 .vector__step4 {
     position: absolute;
-    /* transform: rotate(-120deg); */
     flex-shrink: 0;
     stroke-width: 2px;
     stroke: var(--gold, #C8A35F);
@@ -275,4 +280,296 @@
     position: absolute;
     left: 41%;
     top: 43%;
+}
+
+@media (max-width: 820px) {
+    .vector__step4 {
+        display: none;
+    }
+
+    .vector__5 {
+        display: none;
+    }
+
+    .vector__6 {
+        display: none;
+    }
+
+    .vector__7 {
+        display: none;
+    }
+
+    .map__vector1 {
+        display: none;
+    }
+
+    .map__vector2 {
+        display: none;
+    }
+
+    .map__map {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .map__belarus__img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map__russia__img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map__china__img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+.map {
+    margin-top: 100px;
+}
+
+.map__map {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.belarus {
+    margin-bottom: 72px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 324px;
+    height: 325px;
+    flex-shrink: 0;
+    border-radius: 325px;
+    border: 2px solid rgba(200, 163, 95, 0.40);
+}
+
+.map__belarus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map__name {
+    padding-top: 18px;
+    color: var(--gold, #C8A35F);
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    bottom: 0px;
+}
+
+.russia {
+    margin-bottom: 76px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 514px;
+    height: 517px;
+    flex-shrink: 0;
+    border-radius: 517px;
+    border: 2px solid rgba(200, 163, 95, 0.40);
+}
+
+.map__russia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.china {
+    display: flex;
+    justify-content: center;
+    width: 336px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 336px;
+    border: 2px solid rgba(200, 163, 95, 0.40);
+
+}
+
+.map__china {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map__num__step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--white, #F6F6F6);
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 49px;
+    height: 49px;
+    border: 2px solid #C8A35F;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #C8A35F;
+}
+
+.map__step__text {
+    color: var(--white, #F6F6F6);
+    font-family: Exo 2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.map__step__cnt__china__1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 80px;
+    bottom: 130px;
+}
+
+.map__step__cnt__china__2 {
+    gap: 10px;
+    display: flex;
+    width: 165px;
+    align-items: center;
+    position: absolute;
+    right: 80px;
+    top: 140px;
+}
+
+.map__step__cnt__china__3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 146px;
+    top: 30px;
+    right: 275px;
+}
+
+.map__step__cnt__china__4 {
+    width: 251px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 215px;
+    left: 600px;
+}
+
+.step__vector__1 {
+    position: absolute;
+    right: 190px;
+    bottom: 210px;
+}
+
+.step__vector__2 {
+    position: absolute;
+    right: 250px;
+    bottom: 440px;
+}
+
+.step__vector__3 {
+    position: absolute;
+    right: 430px;
+    top: 100px;
+}
+
+.step__vector__5 {
+    position: absolute;
+    left: 220px;
+    top: 205px;
+}
+
+.step__vector__6 {
+    position: absolute;
+    top: 225px;
+    left: 510px;
+}
+
+.step__vector__7 {
+    position: absolute;
+    top: 240px;
+    left: 485px;
+}
+
+@media(max-width: 820px){
+    .step__vector__1 {
+        display: none;
+    }
+    .step__vector__2 {
+        display: none;
+    }
+    .step__vector__3 {
+        display: none;
+    }
+    .step__vector__5 {
+        display: none;
+    }
+    .step__vector__6 {
+        display: none;
+    }
+    .step__vector__7 {
+        display: none;
+    }
+
+    .map__map {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .russia {
+        margin-top: 109px;
+    }
+
+    .map__step__cnt__china__1 {
+        left: 0px;
+        top: 0px;
+    }
+
+    .map__step__cnt__china__2 {
+        right: 0px;
+        top: 360px;
+    }
+
+    .map__step__cnt__china__3{
+        left: 0px;
+        top: 460px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .map__step__cnt__china__4 {
+        gap: 8px;
+        left: 0px;
+        top: 1050px;
+        flex-direction: row;
+        width: 400px;
+    }
+
+
+
+
+
+
 }

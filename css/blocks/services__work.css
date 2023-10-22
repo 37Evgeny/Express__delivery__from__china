@@ -10,12 +10,13 @@
 }
 
 .services_and_work {
-    width: 1218px;
+    /* max-width: 1218px; */
 }
 
 .works__cont {
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work__cnt {
@@ -44,7 +45,7 @@
 }
 
 .work__cnt:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .line__num__cont {
@@ -107,4 +108,14 @@
 
 .list__work {
     display: flex;
+}
+
+@media(max-width: 820px) {
+    .line__num__cont {
+        display: none;
+    }
+   
+    .work__cnt :not(:last-child) {
+       margin-bottom: 20px;
+    }
 }

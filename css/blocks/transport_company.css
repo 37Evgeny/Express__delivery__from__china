@@ -31,6 +31,7 @@
 .transport_company__info {
     margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
     gap: 91px;
 }
@@ -48,6 +49,7 @@
 
 .application__cnt {
     display: flex;
+    flex-wrap: wrap;
     border-radius: 7px;
     background: var(--white, #F6F6F6);
 }
@@ -185,4 +187,22 @@ text-decoration-line: underline;
 
 .contacts {
     margin: 100px 0px;
+}
+
+@media(max-width:820px){
+    .transport_company__info{
+        justify-content: center;
+    }
+
+    .application__left img{
+        display: none;
+    }
+
+    .application__text {
+        margin-bottom: 60px;
+    }
+
+    .contacts__botton {
+        flex-direction: column;
+    }
 }

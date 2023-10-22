@@ -18,10 +18,12 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .advantages__card__line {
     display: flex;
+    
     justify-content: space-between;
     gap: 30px;
     width: 100%;
@@ -74,11 +76,12 @@
 .card__title__adv__big {
     padding-left: 24px;
     color: var(--gold, #C8A35F);
-font-family: Exo 2;
-font-size: 106px;
-font-style: normal;
-font-weight: 800;
-line-height: 120%; /* 127.2px */
+    font-family: Exo 2;
+    font-size: 106px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 127.2px */
 }
 
 .card__text__adv__big {
@@ -86,10 +89,17 @@ line-height: 120%; /* 127.2px */
     padding-left: 24px;
     padding-bottom: 24px;
     color: #46484B;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 130%; /* 23.4px */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+    /* 23.4px */
 }
 
+@media(max-width: 820px){
+    .advantages__card__line{
+        flex-wrap: wrap;
+    }
+ 
+}
