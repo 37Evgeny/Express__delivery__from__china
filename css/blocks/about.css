@@ -95,17 +95,64 @@
     .about__services {
         display: flex;
         flex-wrap: wrap;
-       
+
     }
 
     .about__services {
         gap: 20px;
     }
+
     .company__about {
         padding: 0px;
     }
+
     .team__about {
         padding: 0px;
         width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .about__h2 {
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 40.8px */
+    }
+
+    .services__num {
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 44.4px */
+    }
+
+    .services__text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 20.8px */
+    }
+
+    .services__text br{
+        display: none;
+    }
+
+    .img__company {
+        width: 320px;
+height: 207px;
+flex-shrink: 0;
+    }
+
+    .company__text {
+        color: var(--txt, #AEB5BF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 20.8px */
     }
 }
