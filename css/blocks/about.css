@@ -95,7 +95,6 @@
     .about__services {
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .about__services {
@@ -142,9 +141,8 @@
     }
 
     .img__company {
-        width: 320px;
-height: 207px;
-flex-shrink: 0;
+flex: 1 1 0;
+width: 100%;
     }
 
     .company__text {
@@ -154,5 +152,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 300;
 line-height: 130%; /* 20.8px */
+    }
+
+    .company__about {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
     }
 }
