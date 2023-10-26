@@ -160,3 +160,28 @@ line-height: 120%; /* 26.4px */
         flex: 1;
     }
 }
+
+@media(max-width: 400px){
+    .reviews_title h6{
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%; /* 40.8px */
+    }
+
+    .reviews_title p {
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+
+    .photo__cnt {
+        width: 600px;
+    }
+    .photo__img {
+        width: 190px;
+height: 159px;
+flex-shrink: 0;
+    }
+}

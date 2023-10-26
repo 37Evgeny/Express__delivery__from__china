@@ -243,3 +243,46 @@ background: var(--white, #F6F6F6);
     }
 
 }
+
+@media(max-width:400px){
+    .delivery__title {
+        margin-left: 0px;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%; /* 40.8px */
+    }
+
+    .delivery__text {
+        width: 320px;
+        margin-left: 0px;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .card__img__cnt {
+        width: 320px;
+        height: 190px;
+    }
+
+    .pack__card__text {
+        width: 320px;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%; /* 24px */
+    }
+
+    .pack__cards {
+        margin-right: 0px;
+        width: 320px;
+    }
+ .pack__cards {
+    flex-direction: column;
+ }
+
+ .pack__card:not(:last-child) {
+    margin-bottom: 30px;
+ }
+}

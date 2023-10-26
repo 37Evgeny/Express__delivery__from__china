@@ -149,11 +149,12 @@
 
 .contacts__text {
     color: var(--white, #F6F6F6);
-font-family: Exo 2;
-font-size: 54px;
-font-style: normal;
-font-weight: 800;
-line-height: 120%; /* 64.8px */
+    font-family: Exo 2;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 64.8px */
 }
 
 .contacts__line {
@@ -171,12 +172,13 @@ line-height: 120%; /* 64.8px */
 
 .contacts__block p {
     color: var(--white, #F6F6F6);
-font-family: Exo 2;
-font-size: 22px;
-font-style: normal;
-font-weight: 800;
-line-height: 120%; /* 26.4px */
-text-decoration-line: underline;
+    font-family: Exo 2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 26.4px */
+    text-decoration-line: underline;
 }
 
 .contacts__botton {
@@ -189,12 +191,12 @@ text-decoration-line: underline;
     margin: 100px 0px;
 }
 
-@media(max-width:820px){
-    .transport_company__info{
+@media(max-width:820px) {
+    .transport_company__info {
         justify-content: center;
     }
 
-    .application__left img{
+    .application__left img {
         display: none;
     }
 
@@ -204,5 +206,86 @@ text-decoration-line: underline;
 
     .contacts__botton {
         flex-direction: column;
+    }
+}
+
+@media(max-width:400px) {
+    .left__company {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 24px */
+    }
+
+    .info__left {
+        display: flex;
+        width: 321px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 6px;
+        border: 2px solid var(--gold, #C8A35F);
+    }
+
+    .left__company__name {
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 52.8px */
+    }
+
+    .left__company__text {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .transport_company__info {
+        gap: 30px;
+    }
+
+    .application__title {
+        width: 320px;
+        padding: 60px 0px 0px 0px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 36px */
+    }
+
+    .application__cnt {
+        width: 320px;
+    }
+
+    .right__cnt {
+        padding-top: 40px;
+    }
+
+    .application__right {
+        width: 320px;
+        padding: 0px 18px 0px 0px;
+    }
+
+    .contacts__text {
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 40.8px */
+    }
+
+    .contacts__block p {
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 19.2px */
+        text-decoration-line: underline;
     }
 }

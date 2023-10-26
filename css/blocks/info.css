@@ -146,6 +146,7 @@
     }
 
     .info__p {
+        width: 313px;
         color: var(--white, #F6F6F6);
         font-family: Roboto;
         font-size: 20px;

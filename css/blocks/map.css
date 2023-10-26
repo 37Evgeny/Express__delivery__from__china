@@ -237,6 +237,10 @@
 }
 
 @media(max-width:400px){
+
+    .map__map{
+        flex-wrap: nowrap;
+    }
     .china__img {
         width: 267.619px;
 padding: 0px 0.173px 4.599px 0px;
@@ -258,8 +262,18 @@ border: 2px solid rgba(200, 163, 95, 0.40);
 }
 
 .map__step__cnt__china__4 {
+    width: 203px;
     left: 0px;
     top: 860px;
+}
+
+.map__step__text {
+    color: var(--white, #F6F6F6);
+font-family: Exo 2;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
    
 }
