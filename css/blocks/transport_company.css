@@ -30,6 +30,7 @@
 
 .transport_company__info {
     margin-top: 100px;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -49,7 +50,6 @@
 
 .application__cnt {
     display: flex;
-    flex-wrap: wrap;
     border-radius: 7px;
     background: var(--white, #F6F6F6);
 }
@@ -60,7 +60,7 @@
 }
 
 .application__right {
-    padding: 0px 52px 0px 91px
+   width: 50%;
 }
 
 .right__cnt {
@@ -196,6 +196,15 @@
         justify-content: center;
     }
 
+    .application__right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .application__cnt {
+        flex-wrap: wrap;
+    }
+
     .application__left img {
         display: none;
     }
@@ -215,7 +224,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: 120%;
-        /* 24px */
+      
     }
 
     .info__left {
@@ -234,7 +243,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: 120%;
-        /* 52.8px */
+        
     }
 
     .left__company__text {
@@ -255,7 +264,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: 120%;
-        /* 36px */
+       
     }
 
     .application__cnt {
@@ -276,7 +285,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: 120%;
-        /* 40.8px */
+    
     }
 
     .contacts__block p {
@@ -285,7 +294,6 @@
         font-style: normal;
         font-weight: 800;
         line-height: 120%;
-        /* 19.2px */
         text-decoration-line: underline;
     }
 }

@@ -136,22 +136,23 @@
         /* 20.8px */
     }
 
-    .services__text br{
+    .services__text br {
         display: none;
     }
 
     .img__company {
-flex: 1 1 0;
-width: 100%;
+        flex: 1 1 0;
+        width: 100%;
     }
 
     .company__text {
         color: var(--txt, #AEB5BF);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 130%; /* 20.8px */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+        /* 20.8px */
     }
 
     .company__about {
