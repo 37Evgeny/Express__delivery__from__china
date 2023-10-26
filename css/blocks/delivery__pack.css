@@ -298,4 +298,9 @@
     .pack__card:not(:last-child) {
         margin-bottom: 30px;
     }
+
+    .card__btn__cnt{
+        padding: 24px 0px;
+    }
+
 }
