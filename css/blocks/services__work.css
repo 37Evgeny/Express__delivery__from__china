@@ -146,7 +146,7 @@
     }
 
     .work__text {
-        width: 96px;
+        width: 100px;
         padding-left: 12px;
         color: var(--white, #F6F6F6);
         font-family: Exo 2;

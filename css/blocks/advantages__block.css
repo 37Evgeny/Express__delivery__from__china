@@ -97,6 +97,11 @@
     /* 23.4px */
 }
 
+.card__img__adv__right{
+    display: flex;
+    justify-content: end;
+}
+
 @media(max-width: 820px) {
     .advantages__card__line {
         flex-wrap: wrap;
