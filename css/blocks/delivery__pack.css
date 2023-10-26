@@ -244,7 +244,9 @@
 }
 
 @media(max-width:400px) {
-
+    .card__btn {
+        width: 242px;
+    }
     .delivery__cards {
         gap: 30px;
     }
