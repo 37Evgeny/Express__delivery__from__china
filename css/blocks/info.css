@@ -4,6 +4,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    object-fit: none;
 }
 
 
@@ -96,7 +97,23 @@
     line-height: normal;
 }
 
+@media(max-width:800px){
+    .info__bg__container img{
+        object-position: right;
+    }
+    .info__bg__img img{
+        object-position: right;
+    }
+}
+
 @media(max-width:400px) {
+
+    .info__bg__container img{
+        object-position: center;
+    }
+    .info__bg__img img{
+        object-position: center;
+    }
 
     .advantages__cnt__info {
 
