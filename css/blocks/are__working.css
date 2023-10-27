@@ -1,7 +1,8 @@
 .are__working__container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url(../../img/big__block/are__working/bg.png), lightgray 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
 }
 
 .are__working__title {
@@ -68,6 +69,12 @@
 @media(max-width:820px){
     .are__working__cards {
         margin-top: 10px;
+    }
+
+    .are__working__container{
+        .img__background{
+            object-position: right;
+        }
     }
 }
 
