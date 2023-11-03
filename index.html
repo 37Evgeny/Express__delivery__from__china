@@ -244,179 +244,353 @@
                         Для расчёта стоимости нужен вес, объём, стоимостьи категория товара
                     </p>
 
-                    <div class="delivery__cards">
-                        <div class="delivery__card">
-                            <div class="card__top">
-                                <p class="card__title">
-                                    Авиаперевозка
-                                </p>
-                                <img src="./img/delivery__pack/card1.png" alt="delivery__img" class="card__img">
-                                <p class="card__text">
-                                    Подходит для дорогих товаров и пробных партий
-                                </p>
-                            </div>
-                            <div class="card__button">
-                                <div class="card__ul__list">
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            ≥50 кг
-                                        </p>
+                    <div id="delivery__cards" class="delivery__cards">
+                        <button class="arrow__cards prev__card">⇦</button>
+                        <div class="cards__carusel">
+                            <ul>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Авиаперевозка
+                                            </p>
+                                            <img src="./img/delivery__pack/card1.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Подходит для дорогих товаров и пробных партий
+                                            </p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥50 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        4-7 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 3,1 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            4-7 дней в пути
-                                        </p>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Автомобильная
+                                            </p>
+                                            <img src="./img/delivery__pack/card2.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Оптимальна по скорости и цене.
+                                            </p>
+                                            <p class="card__text"> Из Китая отправляется каждый день. Подходит для сборных грузов.
+                                            </p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥50 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        8-20 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 1,2 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+            
                                     </div>
-                                </div>
-
-                                <div class="bottom__card">
-                                    <p class="card__price">
-                                        от 3,1 $/кг
-                                    </p>
-                                    <div class="card__btn__cnt">
-                                        <button class="card__btn">Рассчитать мой груз</button>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Морская
+                                            </p>
+                                            <img src="./img/delivery__pack/card3.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Бюджетная — для крупных грузов и контейнеров.
+                                            </p>
+                                            <p class="card__text">Отправляется 2 раза в неделю.</p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥100 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        21-50 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 0,7 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-
-
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Железнодорожная
+                                            </p>
+                                            <img src="./img/delivery__pack/card4.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Самая бюджетная для сборных грузов и контейнеров.
+                                            </p>
+                                            <p class="card__text">Отправка каждый день.</p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥100 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        20-40 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 0,3 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+            
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Авиаперевозка
+                                            </p>
+                                            <img src="./img/delivery__pack/card1.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Подходит для дорогих товаров и пробных партий
+                                            </p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥50 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        4-7 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 3,1 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Автомобильная
+                                            </p>
+                                            <img src="./img/delivery__pack/card2.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Оптимальна по скорости и цене.
+                                            </p>
+                                            <p class="card__text"> Из Китая отправляется каждый день. Подходит для сборных грузов.
+                                            </p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥50 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        8-20 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 1,2 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+            
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Морская
+                                            </p>
+                                            <img src="./img/delivery__pack/card3.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Бюджетная — для крупных грузов и контейнеров.
+                                            </p>
+                                            <p class="card__text">Отправляется 2 раза в неделю.</p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥100 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        21-50 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 0,7 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="delivery__card">
+                                        <div class="card__top">
+                                            <p class="card__title">
+                                                Железнодорожная
+                                            </p>
+                                            <img src="./img/delivery__pack/card4.png" alt="delivery__img" class="card__img">
+                                            <p class="card__text">
+                                                Самая бюджетная для сборных грузов и контейнеров.
+                                            </p>
+                                            <p class="card__text">Отправка каждый день.</p>
+                                        </div>
+                                        <div class="card__button">
+                                            <div class="card__ul__list">
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        ≥100 кг
+                                                    </p>
+                                                </div>
+                                                <div class="card__ul">
+                                                    <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
+                                                        class="card__ul__img">
+                                                    <p class="card__ul__text">
+                                                        20-40 дней в пути
+                                                    </p>
+                                                </div>
+                                            </div>
+            
+                                            <div class="bottom__card">
+                                                <p class="card__price">
+                                                    от 0,3 $/кг
+                                                </p>
+                                                <div class="card__btn__cnt">
+                                                    <button class="card__btn">Рассчитать мой груз</button>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+            
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-
-                        <div class="delivery__card">
-                            <div class="card__top">
-                                <p class="card__title">
-                                    Автомобильная
-                                </p>
-                                <img src="./img/delivery__pack/card2.png" alt="delivery__img" class="card__img">
-                                <p class="card__text">
-                                    Оптимальна по скорости и цене.
-                                </p>
-                                <p class="card__text"> Из Китая отправляется каждый день. Подходит для сборных грузов.
-                                </p>
-                            </div>
-                            <div class="card__button">
-                                <div class="card__ul__list">
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            ≥50 кг
-                                        </p>
-                                    </div>
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            8-20 дней в пути
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="bottom__card">
-                                    <p class="card__price">
-                                        от 1,2 $/кг
-                                    </p>
-                                    <div class="card__btn__cnt">
-                                        <button class="card__btn">Рассчитать мой груз</button>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-                        <div class="delivery__card">
-                            <div class="card__top">
-                                <p class="card__title">
-                                    Морская
-                                </p>
-                                <img src="./img/delivery__pack/card3.png" alt="delivery__img" class="card__img">
-                                <p class="card__text">
-                                    Бюджетная — для крупных грузов и контейнеров.
-                                </p>
-                                <p class="card__text">Отправляется 2 раза в неделю.</p>
-                            </div>
-                            <div class="card__button">
-                                <div class="card__ul__list">
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            ≥100 кг
-                                        </p>
-                                    </div>
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            21-50 дней в пути
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="bottom__card">
-                                    <p class="card__price">
-                                        от 0,7 $/кг
-                                    </p>
-                                    <div class="card__btn__cnt">
-                                        <button class="card__btn">Рассчитать мой груз</button>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-                        <div class="delivery__card">
-                            <div class="card__top">
-                                <p class="card__title">
-                                    Железнодорожная
-                                </p>
-                                <img src="./img/delivery__pack/card4.png" alt="delivery__img" class="card__img">
-                                <p class="card__text">
-                                    Самая бюджетная для сборных грузов и контейнеров.
-                                </p>
-                                <p class="card__text">Отправка каждый день.</p>
-                            </div>
-                            <div class="card__button">
-                                <div class="card__ul__list">
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            ≥100 кг
-                                        </p>
-                                    </div>
-                                    <div class="card__ul">
-                                        <img src="./img/delivery__pack/card__ul__img.svg" alt="card__ul__img"
-                                            class="card__ul__img">
-                                        <p class="card__ul__text">
-                                            20-40 дней в пути
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="bottom__card">
-                                    <p class="card__price">
-                                        от 0,3 $/кг
-                                    </p>
-                                    <div class="card__btn__cnt">
-                                        <button class="card__btn">Рассчитать мой груз</button>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
+                        <button class="arrow__cards next__card">⇨</button>
                     </div>
 
                     <div class="pack__cnt">
@@ -1069,37 +1243,124 @@
 
                 <div class="video_reports__cnt">
                     <h6 class="video_reports__h6">Видеоотчеты</h6>
-                    <div class="video__cnt">
-                        <div class="video_report">
-                            <img src="./img/reviews/video1.jpg" alt="video">
-                            <p class="video_report_title">Как мы доставляем груз</p>
+                    <div id="video" class="video">
+                        <button class="arrow__video prev__video">⇦</button>
+                        <div class="gallery__video">
+                            <ul>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video1.jpg" alt="video">
+                                        <p class="video_report_title">Как мы доставляем груз</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video2.jpg" alt="video">
+                                        <p class="video_report_title">Груз приехал</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video3.jpg" alt="video">
+                                        <p class="video_report_title">Груз отправился</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video4.png" alt="video">
+                                        <p class="video_report_title">Поставка грузов</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video1.jpg" alt="video">
+                                        <p class="video_report_title">Как мы доставляем груз</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video2.jpg" alt="video">
+                                        <p class="video_report_title">Груз приехал</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video3.jpg" alt="video">
+                                        <p class="video_report_title">Груз отправился</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video4.png" alt="video">
+                                        <p class="video_report_title">Поставка грузов</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video1.jpg" alt="video">
+                                        <p class="video_report_title">Как мы доставляем груз</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video2.jpg" alt="video">
+                                        <p class="video_report_title">Груз приехал</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video3.jpg" alt="video">
+                                        <p class="video_report_title">Груз отправился</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="video_report">
+                                        <img src="./img/reviews/video4.png" alt="video">
+                                        <p class="video_report_title">Поставка грузов</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="video_report">
-                            <img src="./img/reviews/video2.jpg" alt="video">
-                            <p class="video_report_title">Груз приехал</p>
-                        </div>
-                        <div class="video_report">
-                            <img src="./img/reviews/video3.jpg" alt="video">
-                            <p class="video_report_title">Груз отправился</p>
-                        </div>
-                        <div class="video_report">
-                            <img src="./img/reviews/video4.png" alt="video">
-                            <p class="video_report_title">Поставка грузов</p>
-                        </div>
-                        <button class="prev"><img src="./img/reviews/arrow__left.svg" alt="left"></button>
-                        <button class="next"><img src="./img/reviews/arrow__right.svg" alt="right"></button>
+                        <button class="arrow__video next__video">⇨</button>
                     </div>
-
                 </div>
 
                 <div class="photo_reports__cnt">
                     <h6 class="video_reports__h6">Фотоотчеты</h6>
-                    <div class="photo__cnt">
-                        <img src="./img/reviews/photo1.jpg" alt="photo" class="photo__img">
-                        <img src="./img/reviews/photo2.jpg" alt="photo" class="photo__img">
-                        <img src="./img/reviews/photo3.jpg" alt="photo" class="photo__img">
-                        <button class="prev"><img src="./img/reviews/arrow__left.svg" alt="left"></button>
-                        <button class="next"><img src="./img/reviews/arrow__right.svg" alt="right"></button>
+                    <div class="photo" id="photo">
+                        <button class="arrow__photo prev__photo">⇦</button>
+                        <div class="photo__cnt">
+                            <ul>
+                                <li>
+                                    <img src="./img/reviews/photo1.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo2.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo3.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo1.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo2.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo3.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo1.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo2.jpg" alt="photo" class="photo__img">
+                                </li>
+                                <li>
+                                    <img src="./img/reviews/photo3.jpg" alt="photo" class="photo__img">
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="arrow__photo next__photo">⇨</button>
                     </div>
                 </div>
             </div>
