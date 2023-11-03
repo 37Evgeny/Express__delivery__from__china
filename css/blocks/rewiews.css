@@ -35,9 +35,8 @@
 
 .carousel {
     position: relative;
-    width: 1150px;
+    max-width: 1150px;
     padding: 10px 40px;
-   
     border-radius: 7px;
 background: var(--white, #F6F6F6);
   }
@@ -70,11 +69,11 @@ background: var(--white, #F6F6F6);
   }
   
   .prev {
-    left: 7px;
+    left: 2px;
   }
   
   .next {
-    right: 7px;
+    right: 2px;
   }
   
   .gallery {
