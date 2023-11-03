@@ -470,7 +470,7 @@
                 </div>
 
                 <div class="works__cont">
-                    <div class="work__cnt">
+                    <div class="work__cnt"  onclick="openstep('step1')"; return "false">
                         <div class="work__img">
                             <img class="work__fill" src="./img/big__block/services__work/work1.svg" alt="work">
                         </div>
@@ -478,7 +478,7 @@
                             Поиск товара
                         </div>
                     </div>
-                    <div class="work__cnt">
+                    <div class="work__cnt"  onclick="openstep('step2')"; return "false">
                         <div class="work__img">
                             <img class="work__fill" src="./img/big__block/services__work/work2.svg" alt="work">
                         </div>
@@ -486,7 +486,7 @@
                             Хранение товара
                         </div>
                     </div>
-                    <div class="work__cnt">
+                    <div class="work__cnt"  onclick="openstep('step3')"; return "false">
                         <div class="work__img">
                             <img class="work__fill" src="./img/big__block/services__work/work3.svg" alt="work">
                         </div>
@@ -494,7 +494,7 @@
                             Таможенное оформление
                         </div>
                     </div>
-                    <div class="work__cnt">
+                    <div class="work__cnt"  onclick="openstep('step4')"; return "false">
                         <div class="work__img">
                             <img class="work__fill" src="./img/big__block/services__work/work4.svg" alt="work">
                         </div>
@@ -508,25 +508,28 @@
                     <div class="line">
                         <img src="./img/big__block/services__work/line1.svg" alt="line">
                     </div>
-                    <div class="line__num">
+                    
+                    <div class="line__num" onclick="openstep('step1')"; return "false">
                         <span>1</span>
                     </div>
+               
+                   
                     <div class="line">
                         <img src="./img/big__block/services__work/line2.svg" alt="line">
                     </div>
-                    <div class="line__num">
+                    <div class="line__num" onclick="openstep('step2')"; return "false">
                         2
                     </div>
                     <div class="line">
                         <img src="./img/big__block/services__work/line3.svg" alt="line">
                     </div>
-                    <div class="line__num">
+                    <div class="line__num" onclick="openstep('step3')"; return "false">
                         3
                     </div>
                     <div class="line">
                         <img src="./img/big__block/services__work/line4.svg" alt="line">
                     </div>
-                    <div class="line__num">
+                    <div class="line__num" onclick="openstep('step4')"; return "false">
                         4
                     </div>
                     <div class="line">
@@ -534,23 +537,78 @@
                     </div>
                 </div>
 
-                <div class="list__work__cont">
-                    <div class="list__work">
-                        <img src="./img/big__block/services__work/work__left__line.svg" alt="line">
-                        <ul class="list__ul">
-                            <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
-                                    alt="list__li">Бесплатный поиск товара и поставщиков по вашей заявке</li>
-                            <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
-                                    alt="list__li">Помощь в проведении выкупа товара</li>
-                            <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
-                                    alt="list__li">Доставка груза с фабрики на наши склады в Китае</li>
-                            <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
-                                    alt="list__li">Проверка качества товара</li>
-                            <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
-                                    alt="list__li">Подготовка груза к доставке в РФ</li>
-                        </ul>
+                <div class="works__cont__step" id="step1">
+                     <div class="list__work__cont">
+                        <div class="list__work">
+                            <img src="./img/big__block/services__work/work__left__line.svg" alt="line">
+                            <ul class="list__ul">
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Бесплатный поиск товара и поставщиков по вашей заявке</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Помощь в проведении выкупа товара</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Доставка груза с фабрики на наши склады в Китае</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Проверка качества товара</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Подготовка груза к доставке в РФ</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+                <div class="works__cont__step" id="step2">
+                    <div class="list__work__cont">
+                        <div class="list__work">
+                            <img src="./img/big__block/services__work/work__left__line.svg" alt="line">
+                            <ul class="list__ul">
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Оформление экспорта в КНР</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Заверение прайс-листов ТПП</li>
+                                        <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                            alt="list__li">Доставка груза из Китая на распредцентр в Хабаровске</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__cont__step" id="step3">
+                    <div class="list__work__cont">
+                        <div class="list__work">
+                            <img src="./img/big__block/services__work/work__left__line.svg" alt="line">
+                            <ul class="list__ul">
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Сертификация</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Декларирование</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Обработка на СВХ</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Проверка комплекта сопроводительных документов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__cont__step" id="step4">
+                    <div class="list__work__cont">
+                        <div class="list__work">
+                            <img src="./img/big__block/services__work/work__left__line.svg" alt="line">
+                            <ul class="list__ul">
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Оплата услуг компании</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Обработка груза на РЦ в Хабаровске</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Доставка до пункта назначения по ж/д или автотранспортом</li>
+                                <li class="list__li"><img src="./img/big__block/services__work/list__li.svg"
+                                        alt="list__li">Выдача груза и документов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="advantages__block__container">
                     <div class="title__big">
@@ -672,6 +730,7 @@
                         </div>
                     </div>
                 </div>
+              
             </div>
         </section>
 
@@ -869,62 +928,143 @@
                     <h6>Отзывы о нашей работе</h6>
                     <p>Оставьте свой отзыв, и он появится здесь!</p>
                 </div>
-                <div class="reviews__block__cnt">
-                    <div class="revievs__block">
-                        <div class="block__title__img">
-                            <img src="./img/reviews/quotes.svg" alt="quotes">
-                            <p class="block__title">Большое спасибо за доставку</p>
-                        </div>
-                        <p class="block__text">
-                            "Я хочу отметить отличную работу компании. Все мои заказы всегда приходят вовремя и в
-                            хорошем состоянии. Всегда готовы помочь и отвечают на все мои вопросы. Спасибо за высокое
-                            качество обслуживания и заботу о своих клиентах
-                        </p>
-                        <p class="block__author">
-                            Михаил Петров, Москва
-                        </p>
+                <div id="carousel" class="carousel">
+                    <button class="arrow prev">⇦</button>
+                    <div class="gallery">
+                        <ul>
+                            <li>
+                                <div class="revievs__block">
+                                    <div class="block__title__img">
+                                        <img src="./img/reviews/quotes.svg" alt="quotes">
+                                        <p class="block__title">Большое спасибо за доставку</p>
+                                    </div>
+                                    <p class="block__text">
+                                        "Я хочу отметить отличную работу компании. Все мои заказы всегда приходят вовремя и в
+                                        хорошем состоянии. Всегда готовы помочь и отвечают на все мои вопросы. Спасибо за высокое
+                                        качество обслуживания и заботу о своих клиентах
+                                    </p>
+                                    <p class="block__author">
+                                        Михаил Петров, Москва
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="revievs__block">
+                                    <div class="block__title__img">
+                                        <img src="./img/reviews/quotes.svg" alt="quotes">
+                                        <p class="block__title">Рекомендую компанию</p>
+                                    </div>
+                                    <p class="block__text">
+                                        Я был очень доволен работой службы доставки грузов. Груз был доставлен вовремя, в
+                                        сохранности и соответствовал всем моим ожиданиям. Было приятно работать с такой
+                                        профессиональной командой и я настоятельно рекомендую их.
+                                    </p>
+                                    <p class="block__author">
+                                        Иван Сергеев, Москва
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="revievs__block">
+                                    <div class="block__title__img">
+                                        <img src="./img/reviews/quotes.svg" alt="quotes">
+                                        <p class="block__title">Буду обращаться снова</p>
+                                    </div>
+                                    <p class="block__text">
+                                        Я бы хотел порекомендовать эту службу доставки грузов всем, кто ищет надежную и быструю
+                                        доставку. Я использовал их услуги множество раз и всегда был доволен результатом.
+                                    </p>
+                                    <p class="block__author">
+                                        Михаил Петров, Москва
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="revievs__block">
+                                    <div class="block__title__img">
+                                        <img src="./img/reviews/quotes.svg" alt="quotes">
+                                        <p class="block__title">Спасибо за работу</p>
+                                    </div>
+                                    <p class="block__text">
+                                        Я очень доволен тем, как работает эта служба доставки грузов. Они всегда соблюдают сроки,
+                                        предоставляют отличный сервис и являются надежным партнером для моего бизнеса. Спасибо за
+                                        вашу работу!
+                                    </p>
+                                    <p class="block__author">
+                                        Михаил Петров, Москва
+                                    </p>
+                                </div>
+                            </li>
+                          <li>
+                            <div class="revievs__block">
+                                <div class="block__title__img">
+                                    <img src="./img/reviews/quotes.svg" alt="quotes">
+                                    <p class="block__title">Большое спасибо за доставку</p>
+                                </div>
+                                <p class="block__text">
+                                    "Я хочу отметить отличную работу компании. Все мои заказы всегда приходят вовремя и в
+                                    хорошем состоянии. Всегда готовы помочь и отвечают на все мои вопросы. Спасибо за высокое
+                                    качество обслуживания и заботу о своих клиентах
+                                </p>
+                                <p class="block__author">
+                                    Михаил Петров, Москва
+                                </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="revievs__block">
+                                <div class="block__title__img">
+                                    <img src="./img/reviews/quotes.svg" alt="quotes">
+                                    <p class="block__title">Рекомендую компанию</p>
+                                </div>
+                                <p class="block__text">
+                                    Я был очень доволен работой службы доставки грузов. Груз был доставлен вовремя, в
+                                    сохранности и соответствовал всем моим ожиданиям. Было приятно работать с такой
+                                    профессиональной командой и я настоятельно рекомендую их.
+                                </p>
+                                <p class="block__author">
+                                    Иван Сергеев, Москва
+                                </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="revievs__block">
+                                <div class="block__title__img">
+                                    <img src="./img/reviews/quotes.svg" alt="quotes">
+                                    <p class="block__title">Буду обращаться снова</p>
+                                </div>
+                                <p class="block__text">
+                                    Я бы хотел порекомендовать эту службу доставки грузов всем, кто ищет надежную и быструю
+                                    доставку. Я использовал их услуги множество раз и всегда был доволен результатом.
+                                </p>
+                                <p class="block__author">
+                                    Михаил Петров, Москва
+                                </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="revievs__block">
+                                <div class="block__title__img">
+                                    <img src="./img/reviews/quotes.svg" alt="quotes">
+                                    <p class="block__title">Спасибо за работу</p>
+                                </div>
+                                <p class="block__text">
+                                    Я очень доволен тем, как работает эта служба доставки грузов. Они всегда соблюдают сроки,
+                                    предоставляют отличный сервис и являются надежным партнером для моего бизнеса. Спасибо за
+                                    вашу работу!
+                                </p>
+                                <p class="block__author">
+                                    Михаил Петров, Москва
+                                </p>
+                            </div>
+                          </li>
+                        </ul>
                     </div>
-                    <div class="revievs__block">
-                        <div class="block__title__img">
-                            <img src="./img/reviews/quotes.svg" alt="quotes">
-                            <p class="block__title">Рекомендую компанию</p>
-                        </div>
-                        <p class="block__text">
-                            Я был очень доволен работой службы доставки грузов. Груз был доставлен вовремя, в
-                            сохранности и соответствовал всем моим ожиданиям. Было приятно работать с такой
-                            профессиональной командой и я настоятельно рекомендую их.
-                        </p>
-                        <p class="block__author">
-                            Иван Сергеев, Москва
-                        </p>
-                    </div>
-                    <div class="revievs__block">
-                        <div class="block__title__img">
-                            <img src="./img/reviews/quotes.svg" alt="quotes">
-                            <p class="block__title">Буду обращаться снова</p>
-                        </div>
-                        <p class="block__text">
-                            Я бы хотел порекомендовать эту службу доставки грузов всем, кто ищет надежную и быструю
-                            доставку. Я использовал их услуги множество раз и всегда был доволен результатом.
-                        </p>
-                        <p class="block__author">
-                            Михаил Петров, Москва
-                        </p>
-                    </div>
-                    <div class="revievs__block">
-                        <div class="block__title__img">
-                            <img src="./img/reviews/quotes.svg" alt="quotes">
-                            <p class="block__title">Спасибо за работу</p>
-                        </div>
-                        <p class="block__text">
-                            Я очень доволен тем, как работает эта служба доставки грузов. Они всегда соблюдают сроки,
-                            предоставляют отличный сервис и являются надежным партнером для моего бизнеса. Спасибо за
-                            вашу работу!
-                        </p>
-                        <p class="block__author">
-                            Михаил Петров, Москва
-                        </p>
-                    </div>
+                   
+                    <button class="arrow next">⇨</button>
+                   
+                    <!-- <button class="prev"><img src="./img/reviews/arrow__left.svg" alt="left"></button>
+                    <button class="next"><img src="./img/reviews/arrow__right.svg" alt="right"></button> -->
                 </div>
 
                 <div class="video_reports__cnt">
@@ -946,6 +1086,8 @@
                             <img src="./img/reviews/video4.png" alt="video">
                             <p class="video_report_title">Поставка грузов</p>
                         </div>
+                        <button class="prev"><img src="./img/reviews/arrow__left.svg" alt="left"></button>
+                        <button class="next"><img src="./img/reviews/arrow__right.svg" alt="right"></button>
                     </div>
 
                 </div>
@@ -956,6 +1098,8 @@
                         <img src="./img/reviews/photo1.jpg" alt="photo" class="photo__img">
                         <img src="./img/reviews/photo2.jpg" alt="photo" class="photo__img">
                         <img src="./img/reviews/photo3.jpg" alt="photo" class="photo__img">
+                        <button class="prev"><img src="./img/reviews/arrow__left.svg" alt="left"></button>
+                        <button class="next"><img src="./img/reviews/arrow__right.svg" alt="right"></button>
                     </div>
                 </div>
             </div>
@@ -1068,6 +1212,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="./script/index.js" defer></script>
 
 </body>
 
